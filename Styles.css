@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: black; /* Set background color to black */
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +9,17 @@ body {
 }
 
 .music-player {
-    background: white; /* Set background color to white for better visibility */
+    background: white; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Light shadow for contrast */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
     text-align: center;
     width: 300px;
 }
 
 .track-info {
     margin-bottom: 20px;
-    color: black; /* Change text color to black for better visibility */
+    color: black;
 }
 
 .progress-container {
@@ -39,20 +39,20 @@ button {
     margin: 0 5px;
     border: none;
     border-radius: 5px;
-    background-color: #ff69b4; /* Pinkish button color */
-    color: white; /* Text color for buttons */
+    background-color: #ff69b4; 
+    color: white; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff1493; /* Darker pink on hover */
+    background-color: #ff1493;
 }
 
 .playlist {
     margin-top: 20px;
     text-align: left;
-    color: black; /* Change text color to black for better visibility */
+    color: black; 
 }
 
 .playlist ul {
@@ -67,5 +67,5 @@ button:hover {
 }
 
 .playlist li:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect for playlist items */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
